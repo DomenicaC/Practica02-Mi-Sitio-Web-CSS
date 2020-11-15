@@ -15,10 +15,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Index -->
     <title>Save Animals, Pagina Principal</title>
+    <link href="css/font-size.css" rel="stylesheet" />
     <link href="css/home.css" rel="stylesheet" />
     <link href="css/general.css" rel="stylesheet" />
+    <link href="iconos/icono.css" rel="stylesheet" />
 
     <style>
+        @font-face {
+            font-family: Fondamento;
+            src: url(font/Fondamento/Fondamento-Italic.ttf);
+        }
+
+        * {
+            font-family: 'Fondamento';
+        }
+
         nav ul li,
         aside {
             background: #B3FFAB;
@@ -28,7 +39,6 @@
             background: linear-gradient(to right, rgba(18, 255, 247, 0.70), rgb(179, 255, 171, 0.70));
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
-
         body {
 
             background: #B3FFAB;
@@ -44,6 +54,7 @@
             box-shadow: rgba(58, 31, 61, 0.9) 20px 0px 25px, rgba(58, 31, 61, 0.9) -20px 0px 25px;
         }
     </style>
+    
 </head>
 
 <body>
@@ -55,10 +66,27 @@
     <header class="enc1">
         <img src="imagenes/Index.jpeg" alt="ind" />
         <br />
-        <h1 class="lines-effect">Save Animals</h1>
+        <h1>Save Animals</h1>
 
-        <input type="text" id="buscar">
-        <label for="buscar">Buscar</label>
+        <!--Buscar
+        <form>
+            <fieldset>
+                <input type="text" id="buscar">
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </fieldset>
+        </form>-->
+
+        dic <div class="social">
+            <ul>
+                <li><a href="http://www." target="_blank" class="icon-facebook2"></a></li>
+                <li><a href="mailto: dvintimillac1@est.ups.edu.ec" class="icon-google-plus"></a></li>
+                <li><a href="http://www." target="_blank" class="icon-instagram"></a></li>
+                <li><a href="http://www." target="_blank" class="icon-twitter"></a></li>
+            </ul>
+        </div>
+
         <br /> <br />
     </header>
 
@@ -82,11 +110,11 @@
 
     <section>
         <aside class="a1">
-            <h3>Publicidad</h3>
+            <p><strong>Publicidad</strong></p>
 
             <img src="imagenes/pub1.jpeg" alt="">
-            <p><strong>Sigue las recomendaciones de la imagen y habla
-                    por los que no pueden</strong></p>
+            <p>Sigue las recomendaciones de la imagen y habla
+                    por los que no pueden</p>
 
             <video src="videos/index.mp4" autoplay muted loop></video>
 
