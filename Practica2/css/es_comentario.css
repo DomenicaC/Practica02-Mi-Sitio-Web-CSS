@@ -7,6 +7,18 @@
 
 */
 
+/*caja comentarios*/
+
+
+.cnt-lbl-comentar{
+	width: 100%;
+	text-align: center;
+}
+
+.lbl-comentar{
+	font-size: 20px;
+}
+
 body {
 	text-align: center;
 	background: #16BFFD;
