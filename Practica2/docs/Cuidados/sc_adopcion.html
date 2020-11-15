@@ -14,17 +14,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopción</title>
-    <link href="../../css/es_adopcion.css" rel="stylesheet" />
+    <link href="../../css/general.css" rel="stylesheet" />
+    <link href="../../css/dosC.css" rel="stylesheet" />
+
+    <style>
+        body {
+            text-align: center;
+            background: #4776E6;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(141, 84, 233, 0.61), rgba(71, 119, 230, 0.61)), url(../../imagenes/fondo2.jpg);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(141, 84, 233, 0.61), rgba(71, 119, 230, 0.61)), url(../../imagenes/fondo2.jpg);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /*sombras*/
+            background-color: white;
+            -moz-box-shadow: rgb(141, 84, 233) 20px 0px 25px, rgb(71, 119, 230) -20px 0px 25px;
+            -webkit-box-shadow: rgb(141, 84, 233) 20px 0px 25px, rgb(71, 119, 230) -20px 0px 25px;
+            box-shadow: rgb(141, 84, 233) 20px 0px 25px, rgb(71, 119, 230) -20px 0px 25px;
+        }
+
+        nav ul li,
+        aside {
+            background: #4776E6;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(141, 84, 233, 0.61), rgba(71, 119, 230, 0.61));
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(141, 84, 233, 0.61), rgba(71, 119, 230, 0.61));
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        #vid{
+            text-align:center;
+            float: center;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="enc1">
         <img src="../../imagenes/adopciones.jpeg" alt="Pagina Principal" />
         <h1>Adopciones</h1>
     </header>
 
-    <header>
-
+    <header class="tabla">
         <nav>
             <ul>
                 <li><a href="../../index.html"> Pagina Principal </a></li>
@@ -38,32 +69,25 @@
                 <li><a href="../Contactos/sc_about.html">Acerca de nosotros </a></li>
             </ul>
         </nav>
-
     </header>
+    <aside class="a1">
+
+        <h4>Publicidad</h4>
+        <img src="../../imagenes/pub7.jpeg" alt="pub7">
+        <br />
+        <p>|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|</p><br />
+        <img src="../../imagenes/publi.jpeg" alt="publi">
+
+    </aside>
 
     <section>
-
-        <article>
-            <br />
-            <div style="text-align:center;">
-                <video src="../../videos/adop.mp4" autoplay muted loop width="640px" height="380"></video>
-            </div>
+        <article id="vid">
+            <video src="../../videos/adop.mp4" autoplay muted loop width="900px"></video>
         </article>
-
     </section>
 
     <section>
-
-        <h3>Experiencias</h3>
-        <aside class="a1">
-
-                <h4>Publicidad</h4>
-                <img src="../../imagenes/pub7.jpeg" alt="pub7">
-                <br /><p>|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|</p><br />
-                <img src="../../imagenes/publi.jpeg" alt="publi">
-
-        </aside>
-
+        <h2>Experiencias</h2>
         <article>
             <p>No se trata solo de que los animales cuenten con un techo para que
                 no pasen frio en las calles, lo que se busca con la adopción es que
@@ -73,13 +97,11 @@
                 cumplir con el requisito más grande que es CUIDARLOS, no lo hagas
                 por ellos hazlo por ti por tener una mejor vida.</p>
         </article>
-
     </section>
 
     <section>
-
         <article>
-            <h4>Dani Rovira</h4>
+            <h3>Dani Rovira</h3>
             <img src="../../imagenes/ado1.jpeg" alt="ado1">
             <p>Desde hace tiempo sabemos la labor que el actor y humorista Dani Rovira
                 hace a favor de los animales abandonados. Desde sus redes sociales y
@@ -89,13 +111,11 @@
                 puerta de un refugio, Lobo se unió a su familia formada por Buyo y
                 Carapapa.</p>
         </article>
-
     </section>
 
     <section>
-
         <article>
-            <h4>Miley Cyrus</h4>
+            <h3>Miley Cyrus</h3>
             <img src="../../imagenes/ado2.jpeg" alt="ado2">
             <p>Otra de nuestras historias favoritas es la de la cantante Miley Cyrus
                 que se encontró un cachorrito en una caja de cartón a la salida de
@@ -105,27 +125,22 @@
                 que adopten. Es de las que promulga con el ejemplo, tiene 5 perros,
                 2 gatos ¡Y un cerdo!</p>
         </article>
-
     </section>
 
     <section>
-
         <article class="ryan">
             <img src="../../imagenes/ado3.jpeg" alt="ado3">
-            <h4>Ryan Gosling</h4>
+            <h3>Ryan Gosling</h3>
             <p>Es guapo, tiene éxito y además es un animal lover, ¿qué más se puede pedir?
                 El actor Ryan Gosling convive desde hace 11 años con su perro George.
                 Cada vez que puede lo menciona en las entrevistas y se deshace en
                 piropos y halagos hacia él.</p>
         </article>
-
-
-
     </section>
 
     <footer class="pie">
         Save Animals UPS &#8226; Domenica Fernanda Vintimilla Canizares &nbsp; 28201 &#8226;
-         <a href="telf: +17845551151">(953) 405-8822</a> <br />
+        <a href="telf: +17845551151">(953) 405-8822</a> <br />
         <a href="mailto: dvintimillac1@est.ups.edu.ec">dvintimillac1@est.ups.edu.ec</a>
         <br />© Todos los derechos reservados
     </footer>
