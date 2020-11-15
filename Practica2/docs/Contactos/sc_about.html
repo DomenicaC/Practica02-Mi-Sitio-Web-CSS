@@ -14,9 +14,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de nosotros</title>
+    <link href="../../css/font-size.css" rel="stylesheet" />
     <link href="../../css/general.css" rel="stylesheet" />
     <link href="../../css/tresC.css" rel="stylesheet" />
 
+    <style>
+        @font-face {
+            font-family: arvo;
+            src: url(../../font/Arvo/Arvo-Italic.ttf);
+        }
+
+        * {
+            font-family: 'arvo';
+        }
+
+        body {
+            background: #CC95C0;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../../imagenes/fondo1.jpg);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../../imagenes/fondo1.jpg);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-color: white;
+            -moz-box-shadow: rgba(31, 51, 61, 0.9) 20px 0px 25px, rgba(82, 74, 92, 0.9) -20px 0px 25px;
+            -webkit-box-shadow: rgba(31, 51, 61, 0.9) 20px 0px 25px, rgba(82, 74, 92, 0.9) -20px 0px 25px;
+            box-shadow: rgba(31, 51, 61, 0.9) 20px 0px 25px, rgba(82, 74, 92, 0.9) -20px 0px 25px;
+        }
+        .ind{
+            position: fixed;
+            
+        }
+        nav ul li,
+        aside {
+            background: #CC95C0;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../imagenes/fondo1.jpg);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../imagenes/fondo1.jpg);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
 </head>
 
 <body>
@@ -51,89 +88,89 @@
 
     </header>
 
-        <article class="ind">
-            <h2>Índice</h2>
-            <ol>
-                <li><a href="#nos"> Sobre Nosotros </a></li>
-                <li><a href="#misi"> Misión </a></li>
-                <li><a href="#vis"> Visión </a></li>
-                <li><a href="#vid"> Video </a></li>
-            </ol>
+    <article class="ind">
+        <h2>Índice</h2>
+        <ol>
+            <li><a href="#nos"> Sobre Nosotros </a></li>
+            <li><a href="#misi"> Misión </a></li>
+            <li><a href="#vis"> Visión </a></li>
+            <li><a href="#vid"> Video </a></li>
+        </ol>
+    </article>
+
+    <aside>
+        <img class="im1" src="../../imagenes/pub2.jpeg" alt="pub2">
+        <p>✪★✪★✪★✪★✪★✪★✪★</p>
+        <p><strong>Publicidad</strong> </p>
+        <img src="../../imagenes/pub8.png" alt="pu8" />
+        <p>✪★✪★✪★✪★✪★✪★✪★</p>
+        <img src="../../imagenes/pub10.jpeg" alt="pu10" />
+    </aside>
+
+    <section>
+
+
+        <h3>Sobre Nosotros</h3>
+        <article class="art1">
+            <p>
+                Somos un centro de información cuyo objetivo es satisfacer las
+                necesidades de los clientes y las mascotas, crecer cada día tanto
+                a nivel profesional, así como a nivel interno para de esta manera
+                brindar la información que nuestro clientes y mascotas buscan.
+            </p>
         </article>
 
-        <aside>
-            <img class="im1" src="../../imagenes/pub2.jpeg" alt="pub2">
-            <p>✪★✪★✪★✪★✪★✪★✪★</p>
-            <p><strong>Publicidad</strong> </p>
-            <img src="../../imagenes/pub8.png" alt="pu8" />
-            <p>✪★✪★✪★✪★✪★✪★✪★</p>
-            <img src="../../imagenes/pub10.jpeg" alt="pu10" />
-        </aside>
+        <article class="art2">
+            <p>Vivimos en un mundo muy pequeño donde estos pequeños o grandes
+                seres nos hacen recordar que podemos hacer más feliz cualquier
+                lugar, solo necesitamos recordar que tanto ellos como nosotros
+                tenemos necesidades y debemos hacerlo por ellos.</p>
 
-        <section>
+        </article>
 
+        <article class="art3">
+            <p>Creemos que todos los seres merecen libertad y respeto no porque compartan las
+                características que admiramos en nosotros mismos, sino porque son seres vivos.
+                Compartimos los mismos orígenes evolutivos, habitamos la misma Tierra, y estamos
+                gobernados por las mismas leyes de la naturaleza. Todos somos iguales.</p>
+        </article>
 
-            <h3>Sobre Nosotros</h3>
-            <article class="art1">
-                <p>
-                    Somos un centro de información cuyo objetivo es satisfacer las
-                    necesidades de los clientes y las mascotas, crecer cada día tanto
-                    a nivel profesional, así como a nivel interno para de esta manera
-                    brindar la información que nuestro clientes y mascotas buscan.
-                </p>
-            </article>
+    </section>
 
-            <article class="art2">
-                <p>Vivimos en un mundo muy pequeño donde estos pequeños o grandes
-                    seres nos hacen recordar que podemos hacer más feliz cualquier
-                    lugar, solo necesitamos recordar que tanto ellos como nosotros
-                    tenemos necesidades y debemos hacerlo por ellos.</p>
+    <section>
 
-            </article>
+        <article class="art4" id="misi">
+            <p><strong> Misión: </strong>
+                Integrar toda la información necesaria para cubrir las necesidades que
+                nuestros clientes y sus mascotas se sientan satisfechos con la
+                información a sus mascotas.</p>
+        </article>
 
-            <article class="art3">
-                <p>Creemos que todos los seres merecen libertad y respeto no porque compartan las
-                    características que admiramos en nosotros mismos, sino porque son seres vivos.
-                    Compartimos los mismos orígenes evolutivos, habitamos la misma Tierra, y estamos
-                    gobernados por las mismas leyes de la naturaleza. Todos somos iguales.</p>
-            </article>
+        <article class="art5" id="vis">
+            <p><strong>Visión: </strong>
+                Nuestra visión está enfocada en el desarrollo y crecimiento de
+                nuestro centro de información y convertirnos en referentes de la
+                atención veterinaria.</p>
+        </article>
 
-        </section>
+    </section>
 
-        <section>
+    <section>
 
-            <article class="art4" id="misi">
-                <p><strong> Misión: </strong>
-                    Integrar toda la información necesaria para cubrir las necesidades que
-                    nuestros clientes y sus mascotas se sientan satisfechos con la
-                    información a sus mascotas.</p>
-            </article>
+        <article id="vid">
+            <div style="text-align:center;">
+                <video src="../../videos/abo.webm" autoplay muted loop width="700px"></video>
+            </div>
+        </article>
 
-            <article class="art5" id="vis">
-                <p><strong>Visión: </strong>
-                    Nuestra visión está enfocada en el desarrollo y crecimiento de
-                    nuestro centro de información y convertirnos en referentes de la
-                    atención veterinaria.</p>
-            </article>
+    </section>
 
-        </section>
-
-        <section>
-
-            <article id="vid">
-                <div style="text-align:center;">
-                    <video src="../../videos/abo.webm" autoplay muted loop width="640px" height="380"></video>
-                </div>
-            </article>
-
-        </section>
-
-        <footer class="pie">
-            Save Animals UPS &#8226; Domenica Fernanda Vintimilla Canizares &nbsp; 28201 &#8226;
-            <a href="telf: +17845551151">(953) 405-8822</a> <br />
-            <a href="mailto: dvintimillac1@est.ups.edu.ec">dvintimillac1@est.ups.edu.ec</a>
-            <br />© Todos los derechos reservados
-        </footer>
+    <footer class="pie">
+        Save Animals UPS &#8226; Domenica Fernanda Vintimilla Canizares &nbsp; 28201 &#8226;
+        <a href="telf: +17845551151">(953) 405-8822</a> <br />
+        <a href="mailto: dvintimillac1@est.ups.edu.ec">dvintimillac1@est.ups.edu.ec</a>
+        <br />© Todos los derechos reservados
+    </footer>
 
 </body>
 
