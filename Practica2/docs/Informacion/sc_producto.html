@@ -14,7 +14,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link href="../../css/es_producto.css" rel="stylesheet" />
+    <link href="../../css/general.css" rel="stylesheet" />
+    <link href="../../css/tresC.css" rel="stylesheet" />
+
+    <style>
+        body {
+            /*Fondo de pantalla*/
+            background: #FEAC5E;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../../imagenes/fondo7.jpg);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../../imagenes/fondo7.jpg);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            /*bordes*/
+            background-color: #FEAC5E;
+            -moz-box-shadow: rgba(75, 192, 200, 0.61) 20px 0px 25px, rgba(254, 171, 94, 0.61) -20px 0px 25px;
+            -webkit-box-shadow: rgba(75, 192, 200, 0.61) 20px 0px 25px, rgba(254, 171, 94, 0.61) -20px 0px 25px;
+            box-shadow: rgba(75, 192, 200, 0.61) 20px 0px 25px, rgba(254, 171, 94, 0.61) -20px 0px 25px;
+        }
+
+        nav ul li,
+        aside {
+            background: #FEAC5E;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
+
 </head>
 
 <body>
@@ -40,16 +70,16 @@
         </nav>
     </header>
 
-    <header class="ind">
+    <aside>
+
+        <p><strong>Publicidad</strong></p>
+        <img src="../../imagenes/leon.png" alt="pu3" />
+
+    </aside>
+
+    <section class="ind">
 
         <h2 id="vol">Índice</h2>
-
-        <aside>
-            
-                <p><strong>Publicidad</strong></p>
-                <img src="../../imagenes/leon.png" alt="pu3" />
-            
-        </aside>
 
         <ol>
             <li><a href="#info"> Informacion Previa </a></li>
@@ -58,7 +88,8 @@
             <li><a href="#jug"> Juguetes </a></li>
             <li><a href="#acc"> Accesorios </a></li>
         </ol>
-    </header>
+        
+    </section>
 
     <section id="info">
 
@@ -104,7 +135,7 @@
 
         <article>
             <h4>AustroVet CLinica Veterinaria</h4>
-            
+
             <img src="../../imagenes/vet2.jpeg" alt="vet2" />
             <p>Somos una veterinaria con años en nuestro labor de servir tanto a mascotas
                 como a sus dueños para nosotros la vida de cualquier especie es muy importante,
@@ -177,30 +208,30 @@
             <p>Juguete de cuerda para perros, 15 dientes casi indestructibles
                 para perros, producto de limpieza dental evita el aburrimiento
                 y alivia el estrés.</p>
-            <p>Contiene 15 juguetes que proporcionarán interminables horas de 
-                diversión diaria, ideal para perros pequeños y medianos, funciona 
+            <p>Contiene 15 juguetes que proporcionarán interminables horas de
+                diversión diaria, ideal para perros pequeños y medianos, funciona
                 tanto para masticadores agresivos como para cachorros de dentición.</p>
         </article>
 
         <article>
             <img src="../../imagenes/jug2.jpeg" alt="jug2" />
             <h4>Gor Pets</h4>
-            <p>A los gatos les encantan los cuatro ratones montados en la primavera en 
+            <p>A los gatos les encantan los cuatro ratones montados en la primavera en
                 esta isla de gatos de Gor Pets.</p>
-            <p>¡Los ratones se mueven en todas las direcciones y hacen un ruido de 
-                traqueteo cuando su gato los golpea o empuja, atrayéndolos y 
+            <p>¡Los ratones se mueven en todas las direcciones y hacen un ruido de
+                traqueteo cuando su gato los golpea o empuja, atrayéndolos y
                 prolongando el tiempo de juego!</p>
         </article>
 
         <article>
             <img src="../../imagenes/jug3.jpeg" alt="jug3" />
             <h4>Purrfect Arch</h4>
-            <p>El Masajeador para gatos Auto Peluquero Purrfect Arch, todo en uno es 
-                el mejor acicalador para gatos que se puede encontrar y hará que su 
-                mascota felina se cepille en las cerdas del arco para mantenerse 
-                limpio, eliminando de este modo la caída del pelo suelto por todos 
+            <p>El Masajeador para gatos Auto Peluquero Purrfect Arch, todo en uno es
+                el mejor acicalador para gatos que se puede encontrar y hará que su
+                mascota felina se cepille en las cerdas del arco para mantenerse
+                limpio, eliminando de este modo la caída del pelo suelto por todos
                 lados mientras se masajea.</p>
-        </article >
+        </article>
 
         <article class="nota">
             <BR /> <BR />
