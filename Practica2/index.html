@@ -15,15 +15,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Index -->
     <title>Save Animals, Pagina Principal</title>
-    <link href="css/es_index.css" rel="stylesheet" />
-    <!-- 
-            Nos ayuda a personalizar de una manera rapida nuestro sitio web
-        <style>
-            h1{
-                color:blue;
-            }
-        </style>
-        -->
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
+
+    <style>
+        nav ul li,
+        aside {
+            background: #B3FFAB;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(18, 255, 247, 0.70), rgba(179, 255, 171, 0.70));
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(18, 255, 247, 0.70), rgb(179, 255, 171, 0.70));
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        body {
+
+            background: #B3FFAB;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(18, 255, 247, 0.61), rgba(179, 255, 171, 0.61)), url(imagenes/fondoIndex.jpg);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(18, 255, 247, 0.61), rgba(179, 255, 171, 0.61)), url(imagenes/fondoIndex.jpg);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            background-color: white;
+            -moz-box-shadow: rgba(31, 61, 56, 0.9) 20px 0px 25px, rgba(60, 31, 61, 0.9) -20px 0px 25px;
+            -webkit-box-shadow: rgba(31, 55, 61, 0.9) 20px 0px 25px, rgba(61, 31, 61, 0.9) -20px 0px 25px;
+            box-shadow: rgba(58, 31, 61, 0.9) 20px 0px 25px, rgba(58, 31, 61, 0.9) -20px 0px 25px;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,88 +52,87 @@
         <source src="audios/aud5.mp3" type="audio/mpeg">
     </audio>
 
-    <div id="gen">
+    <header class="enc1">
+        <img src="imagenes/Index.jpeg" alt="ind" />
+        <br />
+        <h1 class="lines-effect">Save Animals</h1>
 
-        <header class="enc">
-            <img src="imagenes/Index.jpeg" alt="ind" />
+        <input type="text" id="buscar">
+        <label for="buscar">Buscar</label>
+        <br /> <br />
+    </header>
+
+    <header class="tabla">
+
+        <nav>
+            <ul>
+                <li><a href="index.html"> Pagina Principal </a></li>
+                <li><a href="docs/Informacion/sc_producto.html"> Productos </a> </li>
+                <li><a href="docs/Cuidados/sc_cuidado.html"> Cuidados </a></li>
+                <li><a href="docs/Cuidados/sc_campana.html"> Campañas </a></li>
+                <li><a href="docs/Cuidados/sc_adopcion.html"> Adopciones </a></li>
+                <li><a href="docs/Informacion/sc_ubicacion.html"> Ubicaciones </a></li>
+                <li><a href="docs/Contactos/sc_contacto.html"> Contactos </a></li>
+                <li><a href="docs/Informacion/sc_comentario.html"> Comentarios/ Referencias </a></li>
+                <li><a href="docs/Contactos/sc_about.html">Acerca de nosotros </a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <aside class="a1">
+            <h3>Publicidad</h3>
+
+            <img src="imagenes/pub1.jpeg" alt="">
+            <p><strong>Sigue las recomendaciones de la imagen y habla
+                    por los que no pueden</strong></p>
+
+            <video src="videos/index.mp4" autoplay muted loop></video>
+
+        </aside>
+
+        <article class="art1">
+            <img src="imagenes/sa4.png" alt="">
+
+            <p class="p1">Bienvenidos a SaveAnimals aqui encontraras todo lo relacionado a los cuidados de
+                mascotas, recuerda ellos tambien sienten y se preocupan por nosotros, no olvides
+                que con una simple accion puedes generar un cambio.
+            </p>
+
+        </article>
+
+        <article class="art2">
+
+            <br /><br />
+            <h3>Frase que nos encanta</h3>
+            <p>"Casi todos crecimos comiendo carne, usando cuero e ir a circos y zoológicos.
+                Nunca consideramos el impacto de estas acciones en los animales involucrados.
+                Por está razón, ahora se hace la pregunta: ¿Por qué los animales deben tener derechos?"
+
+                <br />—Ingrid E. Newkirk, Presidenta de y coautora de Animalkind—
+            </p>
+
+        </article>
+    </section>
+
+    <section>
+
+        <article class="art3">
+            <p><strong>No te olvides de recomendarnos con tus amigos</strong> </p>
+            <img src="imagenes/sa2.png" alt="">
             <br />
-            <h1 class="lines-effect">Save Animals</h1>
-        </header>
+        </article>
 
-        <header>
-
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Pagina Principal </a></li>
-                    <li><a href="docs/Informacion/sc_producto.html"> Productos </a> </li>
-                    <li><a href="docs/Cuidados/sc_cuidado.html"> Cuidados </a></li>
-                    <li><a href="docs/Cuidados/sc_campana.html"> Campañas </a></li>
-                    <li><a href="docs/Cuidados/sc_adopcion.html"> Adopciones </a></li>
-                    <li><a href="docs/Informacion/sc_ubicacion.html"> Ubicaciones </a></li>
-                    <li><a href="docs/Contactos/sc_contacto.html"> Contactos </a></li>
-                    <li><a href="docs/Informacion/sc_comentario.html"> Comentarios/ Referencias </a></li>
-                    <li><a href="docs/Contactos/sc_about.html">Acerca de nosotros </a></li>
-                </ul>
-            </nav>
-
-        </header>
-
-        <section>
-            <aside class="a1">
-                <h3>Publicidad</h3>
-
-                <img src="imagenes/pub1.jpeg" alt="">
-                <p><strong>Sigue las recomendaciones de la imagen y habla
-                        por los que no pueden</strong></p>
-
-                <video src="videos/index.mp4" autoplay muted loop></video>
-
-            </aside>
-
-            <article class="art1">
-                <img src="imagenes/sa4.png" alt="">
-
-                <p class="p1">Bienvenidos a SaveAnimals aqui encontraras todo lo relacionado a los cuidados de
-                    mascotas, recuerda ellos tambien sienten y se preocupan por nosotros, no olvides
-                    que con una simple accion puedes generar un cambio.
-                </p>
-
-            </article>
-
-            <article class="art2">
-
-                <br /><br />
-                <h3>Frase que nos encanta</h3>
-                <p>"Casi todos crecimos comiendo carne, usando cuero e ir a circos y zoológicos.
-                    Nunca consideramos el impacto de estas acciones en los animales involucrados.
-                    Por está razón, ahora se hace la pregunta: ¿Por qué los animales deben tener derechos?"
-
-                    <br />—Ingrid E. Newkirk, Presidenta de y coautora de Animalkind—
-                </p>
-
-            </article>
-        </section>
-
-        <section>
-
-            <article class="art3">
-                <p><strong>No te olvides de recomendarnos con tus amigos</strong> </p>
-                <img src="imagenes/sa2.png" alt="">
-                <br />
-            </article>
-
-        </section>
+    </section>
 
 
-        <footer class="pie">
-            <br />Save Animals UPS &#8226; Domenica Fernanda Vintimilla Canizares &nbsp; 28201 &#8226;
-            <a href="telf: +9534058822"> (953) 405-8822</a> <br />
-            <a href="mailto: dvintimillac1@est.ups.edu.ec">dvintimillac1@est.ups.edu.ec</a>
-            <br />© Todos los derechos reservados
-        </footer>
-
-
-    </div>
+    <footer class="pie">
+        <br />Save Animals UPS &#8226; Domenica Fernanda Vintimilla Canizares &nbsp; 28201 &#8226;
+        <a href="telf: +9534058822"> (953) 405-8822</a> <br />
+        <a href="mailto: dvintimillac1@est.ups.edu.ec">dvintimillac1@est.ups.edu.ec</a>
+        <br />© Todos los derechos reservados
+    </footer>
 
 
 </body>
