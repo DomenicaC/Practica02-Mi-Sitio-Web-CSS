@@ -1,0 +1,168 @@
+aside p strong {
+    font-size: 1.5em !important;
+}
+
+aside p {
+    font-size: 1em !important;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body section h3 {
+
+    font-size: 2.3em;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#imIz1q {
+    float: left;
+    width: 10% !important;
+    margin: 2% 2% 2% 2%;
+}
+
+#imDer {
+    float: right;
+    width: 10% !important;
+    margin: 2% 2% 2% 2%;
+}
+
+body .nota img {
+    width: 300px;
+    margin: 2% 2% 2% 2%;
+    float: right;
+}
+
+body .nota h2 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 5px solid #dfe20a;
+}
+
+body section h4 {
+
+    font-size: 1.8em;
+    text-align: justify;
+    text-decoration: none;
+
+}
+
+body section p {
+
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+section ul li {
+    font-size: 1.4em;
+    text-align: justify;
+    text-decoration: none;
+}
+
+section ol li ul li {
+    font-size: 1.4em;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/*pie de pagina*/
+body .pie{
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/*Tablas*/
+table {
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 25px;
+}
+
+table tr th {
+    border: 2px solid black;
+    margin-right: 25px;
+}
+
+table .tTit {
+    text-align: center;
+    background: rgb(12, 226, 59);
+    margin-right: 25px;
+
+}
+
+table .sub {
+    background: #ef32d9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #89fffd, #9a32ef);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #89fffd, #9a32ef);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 25px;
+
+}
+
+table .tr1 {
+    background: #8360c3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2ebf91, #8360c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2ebf91, #8360c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 25px;
+}
+
+table .tr2 {
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-right: 25px;
+}
+
+table .tTit1 {
+    text-align: center;
+    background: rgb(12, 226, 59);
+    margin-right: 25px;
+}
+
+table .sub1 {
+    background: #FDFC47;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #24FE41, #FDFC47);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #24FE41, #FDFC47);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-right: 25px;
+}
+
+table .tr11 {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 25px;
+}
+
+table .tr21 {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 25px;
+}

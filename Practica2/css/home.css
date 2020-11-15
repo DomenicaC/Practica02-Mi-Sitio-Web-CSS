@@ -1,4 +1,3 @@
-
 input,
 label {
     text-align: right;
@@ -12,8 +11,8 @@ label {
 
 section .art1 img {
     float: left;
-	width: 10%;
-	margin: 2% 2% 2% 2%;
+    width: 10%;
+    margin: 2% 2% 2% 2%;
 }
 
 section .art1 {
@@ -22,8 +21,8 @@ section .art1 {
 
 section .art3 img {
     float: left;
-	width: 10%;
-	margin: 2% 2% 2% 2%;
+    width: 10%;
+    margin: 2% 2% 2% 2%;
 }
 
 aside {
@@ -37,4 +36,46 @@ aside img,
 video {
     max-width: 100%;
     text-align: center;
+}
+
+.social {
+    position: fixed;
+    left: 0 !important;
+    top: 200px;
+    z-index: 50000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.social ul li .icon-facebook2 {
+    background: #3b5998;
+}
+
+.social ul li .icon-google-plus {
+    background: #d95232;
+}
+
+.social ul li .icon-instagram {
+    background: #bd32d9;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li a:hover {
+    padding: 10px 30px;
 }

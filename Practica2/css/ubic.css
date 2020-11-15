@@ -13,8 +13,8 @@ body {
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	/*sombra*/
-	width: 89.9%;
-	max-width: 900px;
+	width: 90.9%;
+	max-width: 1000px;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
 	margin: 0px auto auto auto;
@@ -84,7 +84,7 @@ body article h3 {
 
 article img {
 	float: right;
-	width: 50%;
+	width: 40%;
 	margin: 2% 2% 2% 2%;
 }
 
@@ -193,4 +193,3 @@ dd {
 	margin: 0 0 3% 3%;
 	text-indent: 0;
 }
-

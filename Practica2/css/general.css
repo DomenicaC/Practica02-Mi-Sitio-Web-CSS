@@ -1,7 +1,7 @@
- * {
+ /* * {
      border: 1px solid black;
 
- }
+ }*/
 
  body {
      margin-left: 25px;
@@ -51,8 +51,6 @@
 
  /*Pie de pagina*/
  footer {
-	text-align: center;
-	font-size: 1.05em;
 	margin-top: 100px;
 	border-top: 2px solid rgb(26, 36, 128);
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -73,8 +71,7 @@
      margin-left: 25px;
      margin-right: 25px;
      vertical-align: top;
-     font-size: 1.25em;
-     width: 350px;
+     width: 250px;
  }
 
  body img,

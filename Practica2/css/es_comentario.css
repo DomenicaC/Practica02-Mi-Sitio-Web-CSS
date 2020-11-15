@@ -1,0 +1,144 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Practica 1
+   Filename: es_comentario.css
+
+   This file contains the base styles used by all pages in the website
+
+*/
+
+body {
+	text-align: center;
+	background: #16BFFD;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(203, 48, 102, 0.61), rgba(22, 191, 253, 0.61)), url(../imagenes/fondo4.jpg);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(203, 48, 102, 0.61), rgba(22, 191, 253, 0.61)), url(../imagenes/fondo4.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer {
+	width: 100%;
+	clear: left;
+	text-align: center;
+	font-size: 1em;
+	margin-top: 100px;
+	border-top: 2px solid rgb(26, 36, 128);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+/*menu*/
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgb(17, 56, 127);
+	border-collapse: collapse;
+	background: #16BFFD;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(203, 48, 102, 0.61), rgba(22, 191, 253, 0.61));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(203, 48, 102, 0.61), rgba(22, 191, 253, 0.61));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav ul li a {
+	margin-bottom: 0;
+}
+
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+
+li {
+	font-size: 18px;
+}
+
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+/*formato pagina para imagenes*/
+
+.galeria {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.galeria h2 {
+	text-align: center;
+	margin: 20px 0 15px 0;
+	font-weight: 300;
+}
+
+.linea {
+	border-top: 5px solid #16fdcb;
+}
+
+.contImg {
+	display: flex;
+	width: 85%;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius: 3px;
+}
+
+.contImg .imag {
+	width: 32%;
+	position: relative;
+	width: 400;
+	height: 400;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 3px 0px rgba(22, 57, 253, 0.61);
+}
+
+.imag img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #12c2e9;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(246, 79, 1, 0.842), rgba(196, 113, 237, 0.842), rgba(18, 194, 233, 0.842));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(246, 79, 1, 0.842), rgba(196, 113, 237, 0.842), rgba(18, 194, 233, 0.842));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100%;
+	height: 0;
+	transition: 1s ease;
+	overflow: hidden;
+
+}
+
+.overlay h3{
+	color: black;
+	font-weight: 300;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.imag:hover .overlay{
+	height: 100%;
+	cursor: pointer;
+}
