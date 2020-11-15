@@ -1,5 +1,5 @@
  * {
-     /* border: 1px solid black;*/
+     border: 1px solid black;
 
  }
 
@@ -9,3 +9,81 @@
      margin-top: 25px;
      margin-bottom: 25px;
  }
+
+ /*encabezado*/
+ body .enc1 {
+     float: center;
+     text-align: center;
+     width: auto;
+ }
+
+ .enc1 img {
+     width: 718px;
+     height: 251px;
+ }
+
+ .tabla {
+     text-align: center;
+     width: auto;
+     margin-left: 25px;
+     margin-right: 25px;
+ }
+
+ /*Menu de navegacion*/
+ nav ul li {
+     display: table-cell;
+     width: 15%;
+     text-align: center;
+     margin-right: 2%;
+     border: thin solid rgb(17, 56, 127);
+     border-collapse: collapse;
+     font-size: 18px;
+ }
+
+ nav ul {
+     display: table-row;
+     margin: 0;
+ }
+
+ section, aside{
+    margin-top: 25px;
+ }
+
+ /*Pie de pagina*/
+ footer {
+	text-align: center;
+	font-size: 1.05em;
+	margin-top: 100px;
+	border-top: 2px solid rgb(26, 36, 128);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+ aside img,
+ video {
+     max-width: auto;
+     text-align: center;
+     float: center;
+ }
+
+ aside {
+     text-align: center;
+     float: right;
+     margin-left: 25px;
+     margin-right: 25px;
+     vertical-align: top;
+     font-size: 1.25em;
+     width: 350px;
+ }
+
+ body img,
+ video {
+     text-align: center;
+     float: center;
+ }
+
+ aside img {
+    max-width: 250px;
+    text-align: center;
+}
