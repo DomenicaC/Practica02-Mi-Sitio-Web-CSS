@@ -14,10 +14,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopción</title>
+    <link href="../../css/font-size.css" rel="stylesheet" />
     <link href="../../css/general.css" rel="stylesheet" />
     <link href="../../css/dosC.css" rel="stylesheet" />
 
     <style>
+        @font-face {
+            font-family: pangolin;
+            src: url(../../font/Pangolin/Pangolin-Regular.ttf);
+        }
+
+        * {
+            font-family: 'pangolin';
+        }
+
         body {
             text-align: center;
             background: #4776E6;
@@ -42,9 +52,15 @@
             background: linear-gradient(to right, rgba(141, 84, 233, 0.61), rgba(71, 119, 230, 0.61));
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
-        #vid{
-            text-align:center;
+
+        #vid {
+            text-align: center;
             float: center;
+        }
+
+        body section h4 {
+            text-align: center;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -82,12 +98,12 @@
 
     <section>
         <article id="vid">
-            <video src="../../videos/adop.mp4" autoplay muted loop width="900px"></video>
+            <video src="../../videos/adop.mp4" autoplay muted loop width="640px" height="380"></video>
         </article>
     </section>
 
     <section>
-        <h2>Experiencias</h2>
+        <h3>Experiencias</h3>
         <article>
             <p>No se trata solo de que los animales cuenten con un techo para que
                 no pasen frio en las calles, lo que se busca con la adopción es que
@@ -101,8 +117,8 @@
 
     <section>
         <article>
-            <h3>Dani Rovira</h3>
-            <img src="../../imagenes/ado1.jpeg" alt="ado1">
+            <img id="imIz1q" src="../../imagenes/ado1.jpeg" alt="ado1" style="width: 20%;">
+            <h4>Dani Rovira</h4>
             <p>Desde hace tiempo sabemos la labor que el actor y humorista Dani Rovira
                 hace a favor de los animales abandonados. Desde sus redes sociales y
                 la televisión difunde el problema social que significa el abandono,
@@ -115,8 +131,8 @@
 
     <section>
         <article>
-            <h3>Miley Cyrus</h3>
-            <img src="../../imagenes/ado2.jpeg" alt="ado2">
+            <img id="imDer" src="../../imagenes/ado2.jpeg" alt="ado2" style="width: 20% !important;">
+            <h4>Miley Cyrus</h4>
             <p>Otra de nuestras historias favoritas es la de la cantante Miley Cyrus
                 que se encontró un cachorrito en una caja de cartón a la salida de
                 unos grandes almacenes y no dudó un segundo en cogerlo y llevarlo
@@ -129,8 +145,8 @@
 
     <section>
         <article class="ryan">
-            <img src="../../imagenes/ado3.jpeg" alt="ado3">
-            <h3>Ryan Gosling</h3>
+            <img id="imIz1q" src="../../imagenes/ado3.jpeg" alt="ado3">
+            <h4>Ryan Gosling</h4>
             <p>Es guapo, tiene éxito y además es un animal lover, ¿qué más se puede pedir?
                 El actor Ryan Gosling convive desde hace 11 años con su perro George.
                 Cada vez que puede lo menciona en las entrevistas y se deshace en
