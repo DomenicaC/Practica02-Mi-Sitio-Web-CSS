@@ -14,10 +14,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link href="../../css/font-size.css" rel="stylesheet" />
     <link href="../../css/general.css" rel="stylesheet" />
     <link href="../../css/tresC.css" rel="stylesheet" />
 
     <style>
+        @font-face {
+            font-family: Noto_Serif;
+            src: url(../../font/Noto_Serif/NotoSerif-Italic.ttf);
+        }
+
+        * {
+            font-family: 'Noto_Serif';
+        }
+
         body {
             /*Fondo de pantalla*/
             background: #FEAC5E;
@@ -42,6 +52,10 @@
             /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .ind {
+            position: fixed;
         }
     </style>
 
@@ -88,7 +102,7 @@
             <li><a href="#jug"> Juguetes </a></li>
             <li><a href="#acc"> Accesorios </a></li>
         </ol>
-        
+
     </section>
 
     <section id="info">
@@ -127,16 +141,16 @@
 
         <article>
             <h4>EcuaFarVet</h4>
-            <img src="../../imagenes/vet1.jpeg" alt="vet1" />
+            <img id="imIz1q" src="../../imagenes/vet1.jpeg" alt="vet1" />
             <p>Clínica Veterinaria en la ciudad de Cuenca, equipado con tecnología de punta,
                 con laboratorio, ecografías, rayos x y quirófano totalmente equipado, con
                 profesionales altamente preparados en medicina interna, cirugía y emergencia.</p>
         </article>
+        <Br />
 
         <article>
             <h4>AustroVet CLinica Veterinaria</h4>
-
-            <img src="../../imagenes/vet2.jpeg" alt="vet2" />
+            <img id="imIz1q" src="../../imagenes/vet2.jpeg" alt="vet2" />
             <p>Somos una veterinaria con años en nuestro labor de servir tanto a mascotas
                 como a sus dueños para nosotros la vida de cualquier especie es muy importante,
                 contamos con los estándares mas altos de calidad, que podrás sentirte abrazado por
@@ -145,7 +159,7 @@
 
         <article>
             <h4>MediPet</h4>
-            <img src="../../imagenes/vet3.jpeg" alt="vet3" />
+            <img id="imIz1q" src="../../imagenes/vet3.jpeg" alt="vet3" />
             <p>Somos un Hospital Veterinario cuyo objetivo es aumentar el número de clientes satisfechos,
                 lograr que el personal se sienta orgulloso de formar parte nuestro equipo y obtener los
                 satisfactores económicos que nos permitan seguir creciendo, con el único fin de
@@ -165,7 +179,7 @@
         <h3>Comida para mascota</h3>
         <article>
             <h4>Pienso</h4>
-            <img src="../../imagenes/comi1.jpeg" alt="com1" />
+            <img id="imDer" src="../../imagenes/comi1.jpeg" alt="com1" />
             <p>El pienso para perros es el alimento balanceado seco,
                 que viene en forma de pequeñas pelotitas crujientes.
                 Idealmente, debería cubrir las necesidades nutricionales
@@ -175,7 +189,7 @@
 
         <article>
             <h4>NatuRawLS</h4>
-            <img src="../../imagenes/comi2.jpeg" alt="com2" />
+            <img id="imDer" src="../../imagenes/comi2.jpeg" alt="com2" />
             <p>Naturawls se enorgullece de ofrecer productos en los que puede confiar.
                 Utilizamos solo carne canadiense que se obtiene de la forma más local
                 posible. Las golosinas y las cenas se preparan en nuestras instalaciones
@@ -184,7 +198,7 @@
 
         <article>
             <Br /><Br />
-            <img src="../../imagenes/comi3.jpeg" alt="com3" />
+            <img id="imDer" src="../../imagenes/comi3.jpeg" alt="com3" />
             <h4>Felix gatitos</h4>
             <p>Purina® Felix® Megamix es una deliciosa combinación de 7 proteínas de
                 alta calidad que ofrecen un mundo de sabor en cada bocado por lo que tu
@@ -204,7 +218,7 @@
         <h3>Juguetes para mascotas</h3>
         <article>
             <h4>UPSKY</h4>
-            <img src="../../imagenes/jug1.jpeg" alt="jug1" />
+            <img id="imIz1q" src="../../imagenes/jug1.jpeg" alt="jug1" />
             <p>Juguete de cuerda para perros, 15 dientes casi indestructibles
                 para perros, producto de limpieza dental evita el aburrimiento
                 y alivia el estrés.</p>
@@ -214,18 +228,19 @@
         </article>
 
         <article>
-            <img src="../../imagenes/jug2.jpeg" alt="jug2" />
             <h4>Gor Pets</h4>
+            <img id="imIz1q" src="../../imagenes/jug2.jpeg" alt="jug2" />
             <p>A los gatos les encantan los cuatro ratones montados en la primavera en
                 esta isla de gatos de Gor Pets.</p>
             <p>¡Los ratones se mueven en todas las direcciones y hacen un ruido de
                 traqueteo cuando su gato los golpea o empuja, atrayéndolos y
                 prolongando el tiempo de juego!</p>
         </article>
-
+        <BR />
+        <BR />
         <article>
-            <img src="../../imagenes/jug3.jpeg" alt="jug3" />
             <h4>Purrfect Arch</h4>
+            <img id="imIz1q" src="../../imagenes/jug3.jpeg" alt="jug3" />
             <p>El Masajeador para gatos Auto Peluquero Purrfect Arch, todo en uno es
                 el mejor acicalador para gatos que se puede encontrar y hará que su
                 mascota felina se cepille en las cerdas del arco para mantenerse
@@ -234,7 +249,7 @@
         </article>
 
         <article class="nota">
-            <BR /> <BR />
+            <BR /> <BR /> <BR /> <BR /><BR />
             <img src="../../imagenes/jug4.jpeg" alt="jug4" />
             <BR /> <BR />
             <h2><strong>Pero recuerda lo más importante ellos son felices con las cosas más pequeñas.</strong> </h2>
@@ -251,7 +266,7 @@
     <section id="acc" class="acce">
         <h3>Accesorios</h3>
         <article>
-            <img src="../../imagenes/art1.jpeg" alt="">
+            <img id="imDer" src="../../imagenes/art1.jpeg" alt="">
             <h4>Correa de hombro acolchada y ajustable </h4>
             <p> El portabebés para perros liviano de nueva generación Lukovee se
                 puede ajustar fácilmente de acuerdo con su altura con una simple
@@ -262,7 +277,7 @@
 
         <article>
             <BR /> <BR />
-            <img src="../../imagenes/sa5.png" alt="">
+            <img id="imDer" src="../../imagenes/sa5.png" alt="">
             <h4>PEDOMUS anteojos de Sol para Perro</h4>
             <p>Correa Ajustable para anteojos de Sol UV, protección Impermeable
                 para Perro,excelente material: la lente está hecha de policarbonato
@@ -272,7 +287,8 @@
         </article>
 
         <article>
-            <br /><br /> <img src="../../imagenes/art3.jpeg" alt="">
+            <br /><br />
+            <img id="imDer" src="../../imagenes/art3.jpeg" alt="">
             <h4>PUBAMALL</h4>
             <p>Ropa para Perros pequeños o grandes, Elegante Traje .
                 Material de mezcla de algodón suave, mantenga a su cachorro más cómodo.
