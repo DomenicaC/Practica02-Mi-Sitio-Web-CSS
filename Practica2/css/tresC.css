@@ -1,0 +1,118 @@
+/*@font-face{
+    font-family: miFuente;
+    src: url(../font/Xanh_Mono/XanhMono-Italic.ttf);
+}*/
+
+body {
+    /*Fondo de pantalla*/
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../imagenes/fondo7.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../imagenes/fondo7.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*bordes
+    background-color: #FEAC5E;
+    -moz-box-shadow: rgba(75, 192, 200, 0.61) 20px 0px 25px, rgba(254, 171, 94, 0.61) -20px 0px 25px;
+    -webkit-box-shadow: rgba(75, 192, 200, 0.61) 20px 0px 25px, rgba(254, 171, 94, 0.61) -20px 0px 25px;
+    box-shadow: rgba(75, 192, 200, 0.61) 20px 0px 25px, rgba(254, 171, 94, 0.61) -20px 0px 25px;
+*/
+    
+    
+}
+
+body .enc1 {
+    float: center;
+    text-align: center;
+    width: auto;
+}
+
+
+.tabla {
+    text-align: center;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*Menu de navegacion*/
+nav ul li {
+    display: table-cell;
+    width: 15%;
+    text-align: center;
+    margin-right: 2%;
+    border: thin solid rgb(17, 56, 127);
+    border-collapse: collapse;
+    font-size: 18px;
+
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+
+/*indice*/
+body .ind {
+    text-align: justify;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    vertical-align: top;
+    background: #B3FFAB;
+    margin-top: auto;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(208, 18, 255, 0.60), rgba(233, 255, 171, 0.7));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(200, 18, 255, 0.60), rgba(242, 255, 171, 0.7));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.25em;
+    
+}
+
+/*seccion */
+body section {
+    text-align: justify;
+    float: center;
+    margin-left: 200px;
+    margin-right: 300px;
+    vertical-align: top;
+    /*border: 1px solid black;*/
+    margin-top: auto;
+}
+
+/*Publicidad*/
+body aside {
+    text-align: center;
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+    vertical-align: top;
+
+    background: #B3FFAB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(208, 18, 255, 0.60), rgba(233, 255, 171, 0.7));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(200, 18, 255, 0.60), rgba(242, 255, 171, 0.7));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.25em;
+}
+
+
+
+footer {
+    width: 100%;
+    clear: left;
+    text-align: center;
+    font-size: 1em;
+    margin-top: auto;
+    border-top: 2px solid rgb(26, 36, 128);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
