@@ -1,0 +1,196 @@
+.encabezado {
+	text-align: center;
+}
+
+body {
+	text-align: justify;
+
+	background: #acb6e5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61)), url(../imagenes/fondo9.jpeg);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61)), url(../imagenes/fondo9.jpeg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	/*sombra*/
+	width: 89.9%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	background-color: white;
+	-moz-box-shadow: rgba(134, 253, 231, 0.849) 20px 0px 25px, rgba(172, 182, 229, 0.849) -20px 0px 25px;
+	-webkit-box-shadow: rgba(134, 253, 231, 0.849) 20px 0px 25px, rgba(172, 182, 229, 0.849) -20px 0px 25px;
+	box-shadow: rgba(134, 253, 231, 0.849) 20px 0px 25px, rgba(172, 182, 229, 0.849) -20px 0px 25px;
+
+}
+
+header {
+	text-align: justify;
+
+}
+
+/*Pie de pagina*/
+footer {
+	width: 100%;
+	clear: left;
+	text-align: center;
+	font-size: 1em;
+	margin-top: 100px;
+	border-top: 2px solid rgb(26, 121, 128);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+/*menu*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+article {
+	font-size: 1.25em;
+	text-align: justify;
+	width: 90%;
+	float: none;
+	margin: 0px auto;
+}
+
+html, body {
+	font-size: 16px;
+}
+
+header h1 {
+	font-size: 3.2em;
+}
+
+body article h1 {
+	font-size: 3em;
+}
+
+header h2 {
+	font-size: 2em;
+}
+
+body article h2 {
+	font-size: 3em;
+}
+
+header h3 {
+	font-size: 2.2em;
+}
+
+body article h3 { 
+	font-size: 2em;
+}
+
+article img {
+	float: right;
+	width: 50%;
+	margin: 2% 2% 2% 2%;
+}
+
+/*Menu navegacion*/
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 0%;
+	border: thin solid rgb(17, 56, 127);
+	border-collapse: collapse;
+	font-family: "Lucida Grande";
+	background: #acb6e5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ol li {
+	
+	width: 30%;
+	text-align: justify;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+
+li {
+	font-size: 18px;
+}
+
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+
+/*Formato Publicidad*/
+aside {
+	text-align: center;
+	float: right;
+	margin-left: 25px;
+	margin-right: 25px;
+	vertical-align: top;
+	width: 250px;
+
+	background: #B3FFAB;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(18, 255, 247, 0.70), rgba(179, 255, 171, 0.70));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(18, 255, 247, 0.70), rgb(179, 255, 171, 0.70));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 1.25em;
+}
+
+.aside img {
+	margin: 0;
+	padding: 10px 0 0 0;
+	width: 200%;
+
+}
+
+/*Formato imagen y lineas de texto*/
+dl#ubCue {
+	width: 57%;
+	margin: 0px 0px 0px 20px;
+}
+
+dl#ubAzo {
+	width: 57%;
+	margin: 0px 0px 0px 20px;
+}
+
+dl#ubGye {
+	width: 57%;
+	margin: 0px 0px 0px 20px;
+}
+
+dl {
+	width: 90%;
+    margin: 0 auto;
+	text-align: left;
+}
+
+dl {
+	margin-left: 2%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+dt {
+	display: block;
+	margin: 0;
+	text-indent: 0;
+	font-weight: bold;
+	border-bottom: 1px solid rgb(87, 30, 141);
+}
+
+dd {
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+}
+
