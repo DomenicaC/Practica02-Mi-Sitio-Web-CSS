@@ -27,6 +27,18 @@
         * {
             font-family: 'Gochi_Hand';
         }
+
+        #comentario,
+        #nombre, #correo {
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(203, 48, 102, 0.61), rgba(22, 191, 253, 0.61));
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(203, 48, 102, 0.61), rgba(22, 191, 253, 0.61));
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        h2{
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -60,18 +72,22 @@
     </header>
 
     <!--Seccion de comentarios-->
+    <h1>Ingresa tu comentario aquí</h1>
+    <br />
 
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0"
-        nonce="9yXRYIMR"></script>
-
-
-    <div class="cnt-lbl-comentar">
-        <label class="lbl-comentar">Lista de comentarios</label>
-    </div>
-
-    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
-        data-numposts="3" data-width=""></div>
-
+    <label for="Nombre">Nombre y apellido</label><br />
+    <input type="text" id="nombre">
+    <br /><br />
+    <label for="Correo">Correo Electrónico</label><br />
+    <input type="text" id="correo">
+    <br /><br />
+    <label for="Comentario">Comentario</label>
+    <br />
+    <textarea id="comentario" rows="14" cols="50"></textarea>
+    <br />
+    <button type="submit" id="publicar">
+        Publicar Comentario
+    </button>
 
     <div class="galeria">
 
