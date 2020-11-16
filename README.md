@@ -8,10 +8,15 @@ CARRERA: Computación | ASIGNATURA: Programación
 NRO. PRÁCTICA: |	2	TÍTULO PRÁCTICA:  Mi Sitio Web (CSS)
 ### OBJETIVO ALCANZADO:
 •	Desarrollar e implementar los CSS a una página web para su desarrollo y aplicación.
+
 •	Conocer los estándares html para el desarrollo de páginas web, así como su implementación de columnas con cabecera y pie de página.
+
 •	Crear sectores por etiquetas, selectores, selectores, etc.
+
 •	Personalizar páginas web con estilos diferentes, tantos en color como tamaño y fuente.
+
 •	Desarrollo de un menú horizontal para las diferentes páginas web.
+
 ### ACTIVIDADES DESARROLLADAS
 #### 1.	Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)”
 Usuario: DomenicaC
@@ -57,7 +62,7 @@ Carpeta css
   
 #### 7.	También, se pide que se utilice selectores por etiquetas, selectores descendentes, selectores por clase y selectores por id.
      
-     ![image](https://user-images.githubusercontent.com/49033368/99210765-f6a5c900-27c6-11eb-9c07-c7b31594c4dc.png)
+ ![image](https://user-images.githubusercontent.com/49033368/99210978-8a779500-27c7-11eb-9282-543788cb3e17.png)
 
 #### 8.	Luego, se pide que se personalicen estilos referentes a texto tanto en color, tamaño, fuente, decoraciones, etc. Ver más, https://fonts.google.com/
 
@@ -96,8 +101,11 @@ Código css
 ### CONCLUSIONES:
 •	Desarrollo de sitios web basados en lenguaje HTML y CSS.
 •	Tener una experiencia de desarrollo que impresione al usuario usando UX Desginer.
+
 •	Uso de herramientas que influyen en el desarrollo de páginas web.
+
 •	Desarrollar nuevas habilidades en cuanto a nuevas herramientas como lo son GoogleFonts.
+
 •	Desarrollo de etiquetas, selectores descendentes, selectores por clase y selectores por id.
 
 Nombre de estudiante: Doménica Fernanda Vintimilla Cañizares
