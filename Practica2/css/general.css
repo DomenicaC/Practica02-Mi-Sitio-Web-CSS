@@ -84,3 +84,112 @@
     max-width: 250px;
     text-align: center;
 }
+
+label{
+    font-size: 1.6em;
+    text-align: justify;
+    text-decoration: none;
+}
+
+#buscar{
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#nombre{
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 500px;
+
+}
+
+#correo{
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+#comentario{
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    vertical-align: top;
+    
+}
+
+#publicar{
+    font-size: 1.2em;
+    border-radius: 5px;
+    background-color: rgb(165, 40, 177);
+}
+
+#bus{
+    font-size: 1.2em;
+    border-radius: 5px;
+    
+}
+
+.social {
+    position: fixed;
+    left: 0 !important;
+    top: 200px;
+    z-index: 50000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.social ul li .icon-facebook2 {
+    background: #3b5998;
+}
+
+.social ul li .icon-google-plus {
+    background: #d95232;
+}
+
+.social ul li .icon-instagram {
+    background: #bd32d9;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+}
+
+
+
+a:visited{
+    color: rgb(159, 73, 240);
+}
+
+a:hover{
+    color: rgb(81, 196, 157);
+}
+
+a:active{
+    color: cyan;
+}
