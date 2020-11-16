@@ -31,7 +31,7 @@
         }
 
         nav ul li,
-        aside {
+        aside, #comentario, #nombre {
             background: #B3FFAB;
             /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, rgba(18, 255, 247, 0.70), rgba(179, 255, 171, 0.70));
@@ -39,6 +39,7 @@
             background: linear-gradient(to right, rgba(18, 255, 247, 0.70), rgb(179, 255, 171, 0.70));
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
+
         body {
 
             background: #B3FFAB;
@@ -54,7 +55,7 @@
             box-shadow: rgba(58, 31, 61, 0.9) 20px 0px 25px, rgba(58, 31, 61, 0.9) -20px 0px 25px;
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -68,22 +69,19 @@
         <br />
         <h1>Save Animals</h1>
 
-        <!--Buscar
-        <form>
-            <fieldset>
-                <input type="text" id="buscar">
-                <button type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </fieldset>
-        </form>-->
+        <!--Buscar>-->
+        <label for="buscar">Buscar</label>
+        <input type="text" id="buscar">
+        <button type="submit" id="bus">
+            <a href="http://www." class="icon-search"></a>
+        </button>
 
-        dic <div class="social">
+        <div class="social">
             <ul>
-                <li><a href="http://www." target="_blank" class="icon-facebook2"></a></li>
+                <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook2"></a></li>
                 <li><a href="mailto: dvintimillac1@est.ups.edu.ec" class="icon-google-plus"></a></li>
-                <li><a href="http://www." target="_blank" class="icon-instagram"></a></li>
-                <li><a href="http://www." target="_blank" class="icon-twitter"></a></li>
+                <li><a href="http://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+                <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
             </ul>
         </div>
 
@@ -114,7 +112,7 @@
 
             <img src="imagenes/pub1.jpeg" alt="">
             <p>Sigue las recomendaciones de la imagen y habla
-                    por los que no pueden</p>
+                por los que no pueden</p>
 
             <video src="videos/index.mp4" autoplay muted loop></video>
 
@@ -153,7 +151,6 @@
         </article>
 
     </section>
-
 
     <footer class="pie">
         <br />Save Animals UPS &#8226; Domenica Fernanda Vintimilla Canizares &nbsp; 28201 &#8226;
